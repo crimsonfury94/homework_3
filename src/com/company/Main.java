@@ -5,7 +5,7 @@ import jdk.swing.interop.SwingInterOpUtils;
 public class Main {
 
     public static void main(String[] args) {
-        // Задание 1
+        // Task 1
         int clientOsAndroid = 1;
         int clientOsIos = 0;
         if (clientOsAndroid == 1) {
@@ -14,7 +14,7 @@ public class Main {
         if (clientOsIos == 0) {
             System.out.println("Install app on iOS by link");
         }
-        // Задание 2
+        // Task 2
         int clientDeviceYear = 2011;
         if (clientDeviceYear >= 2015 && clientOsAndroid == 1) {
             System.out.println("Install app on Android by link");
@@ -26,7 +26,7 @@ public class Main {
         } else if (clientDeviceYear < 2015 && clientOsIos == 0) {
             System.out.println("Install lite version for iOS by link");
         }
-        // Задание 3
+        // Task 3
         int year = 2021;
         if (year % 4 == 0 && year % 100 != 0) {
             System.out.println(year + " is leap year");
@@ -35,7 +35,7 @@ public class Main {
         } else {
             System.out.println(year + " not a lep year");
         }
-        // Задание 4
+        // Task 4
         int deliveryDistance = 95;
         int deliveryDaysShort = 1;
         int deliveryDaysMiddle = 2;
@@ -49,7 +49,7 @@ public class Main {
         } else {
             System.out.println("Delivery is not possible");
         }
-        // Задание 5
+        // Task 5
         int monthNumber = 12;
         switch (monthNumber) {
             case 1:
