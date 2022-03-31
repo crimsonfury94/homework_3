@@ -9,31 +9,31 @@ public class Main {
         int clientOsAndroid = 1;
         int clientOsIos = 0;
         if (clientOsAndroid == 1) {
-            System.out.println("Установите версию для Android по ссылке");
+            System.out.println("Install app on Android by link");
         }
         if (clientOsIos == 0) {
-            System.out.println("Установите версию для iOS по ссылке");
+            System.out.println("Install app on iOS by link");
         }
         // Задание 2
         int clientDeviceYear = 2011;
         if (clientDeviceYear >= 2015 && clientOsAndroid == 1) {
-            System.out.println("Установите версию для Android по ссылке");
+            System.out.println("Install app on Android by link");
         } else if (clientDeviceYear < 2015 && clientOsAndroid == 1) {
-            System.out.println("Установите облегченную версию для Android по ссылке");
+            System.out.println("Install lite version for Android by link");
         }
         if (clientDeviceYear >= 2015 && clientOsIos == 0) {
-            System.out.println("Установите версию для iOS по ссылке");
+            System.out.println("Install app on iOS by link");
         } else if (clientDeviceYear < 2015 && clientOsIos == 0) {
-            System.out.println("Установите облегченную версию для iOS по ссылке");
+            System.out.println("Install lite version for iOS by link");
         }
         // Задание 3
         int year = 2021;
         if (year % 4 == 0 && year % 100 != 0) {
-            System.out.println(year + " является високосным годом");
+            System.out.println(year + " is leap year");
         } else if (year % 400 == 0) {
-            System.out.println(year + " является високосным годом");
+            System.out.println(year + " is leap year");
         } else {
-            System.out.println(year + " не является високосным годом");
+            System.out.println(year + " not a lep year");
         }
         // Задание 4
         int deliveryDistance = 95;
@@ -41,41 +41,41 @@ public class Main {
         int deliveryDaysMiddle = 2;
         int deliveryDaysLong = 3;
         if (deliveryDistance <= 20 && deliveryDaysShort == 1) {
-            System.out.println("Для доставки в " + deliveryDistance  + " км" + " потребуется " + deliveryDaysShort + " день");
+            System.out.println("For delivery in " + deliveryDistance  + " km" + " it'll take " + deliveryDaysShort + " day");
         } else if ((deliveryDistance >= 20 && deliveryDistance <= 60) && deliveryDaysMiddle == 2) {
-            System.out.println("Для доставки в " + deliveryDistance + " км" + " потребуется " + deliveryDaysMiddle + " дня");
+            System.out.println("For delivery in " + deliveryDistance + " km" + " it'll take " + deliveryDaysMiddle + " days");
         } else if ((deliveryDistance >= 60 && deliveryDistance <= 100) && deliveryDaysLong == 3) {
-            System.out.println("Для доставки в " + deliveryDistance + " км" + " потребуется " + deliveryDaysLong + " дня");
+            System.out.println("For delivery in " + deliveryDistance + " km" + " it'll take " + deliveryDaysLong + " days");
         } else {
-            System.out.println("Доставка невозможна");
+            System.out.println("Delivery is not possible");
         }
         // Задание 5
         int monthNumber = 12;
         switch (monthNumber) {
             case 1:
             case 2:
-                System.out.println("Зимний сезон");
+                System.out.println("Winter season");
                 break;
             case 3:
             case 4:
             case 5:
-                System.out.println("Весенний сезон");
+                System.out.println("Spring season");
                 break;
             case 6:
             case 7:
             case 8:
-                System.out.println("летний сезон");
+                System.out.println("Summer season");
                 break;
             case 9:
             case 10:
             case 11:
-                System.out.println("Осенний сезон");
+                System.out.println("Autumn season");
                 break;
             case 12:
-                System.out.println("Зимний сезон");
+                System.out.println("Winter season");
                 break;
             default:
-                System.out.println("Нет такого месяца");
+                System.out.println("Month does not exist");
 
 
         }
