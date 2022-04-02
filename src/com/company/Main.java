@@ -27,13 +27,13 @@ public class Main {
             System.out.println("Install lite version for iOS by link");
         }
         // Task 3
-        int year = 2021;
+        int year = 2020;
         if (year % 4 == 0 && year % 100 != 0) {
             System.out.println(year + " is leap year");
         } else if (year % 400 == 0) {
             System.out.println(year + " is leap year");
         } else {
-            System.out.println(year + " not a lep year");
+            System.out.println(year + " not a leap year");
         }
         // Task 4
         int deliveryDistance = 95;
