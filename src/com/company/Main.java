@@ -54,7 +54,7 @@ public class Main {
         switch (monthNumber) {
             case 1:
             case 2:
-                System.out.println("Winter season");
+                System.out.println("Зимний сезон");
                 break;
             case 3:
             case 4:
